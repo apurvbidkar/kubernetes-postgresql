@@ -24,3 +24,14 @@ spec:
           value: "0.0.0.0"
         ports:
         - containerPort: 80
+      - name: pgadmin
+        image: dpage/pgadmin4:latest
+        env:
+        - name: PGADMIN_DEFAULT_EMAIL
+          value: "apurvbidkar22@gmail.com"
+        - name: PGADMIN_DEFAULT_PASSWORD
+          value: "user"
+        - name: PGADMIN_LISTEN_ADDRESS
+          value: "0.0.0.0"
+        ports:
+        - containerPort: 80

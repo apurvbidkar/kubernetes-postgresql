@@ -8,3 +8,6 @@ data:
   POSTGRES_DB: postgresdb
   POSTGRES_USER: admin
   POSTGRES_PASSWORD: test123
+  POSTGRES_DB: postgresdb
+  POSTGRES_USER: user
+  POSTGRES_PASSWORD: user
